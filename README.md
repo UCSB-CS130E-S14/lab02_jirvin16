@@ -1,4 +1,8 @@
-lab02_jirvin16
-==============
+CS130E-S14-Labs
+===============
 
-lab02 for Jeremy Irvin
+If you made something for lab02, 
+the Arduino shield, put it in this repo
+and push.
+
+
