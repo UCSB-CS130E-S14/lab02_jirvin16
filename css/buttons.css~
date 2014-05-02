@@ -1,0 +1,19 @@
+canvas { border: 1px solid black; }
+
+#leftButtons{
+    position: absolute;
+    top:20px;
+    left:100px;
+}
+
+#myCanvas{
+    position: absolute;
+    top:20px;
+    left: 500px;
+}
+
+#rightButtons{
+    position: absolute;
+    top:20px;
+    left: 1000px;
+}

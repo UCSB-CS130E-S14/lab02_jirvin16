@@ -1,0 +1,18 @@
+canvas { border: 1px solid black; }
+
+#leftButtons{
+    text-align:right;
+    color: red;
+}
+/*
+#myCanvas{
+    position: absolute;
+    top:20px;
+    left: 500px;
+}
+
+#rightButtons{
+    position: absolute;
+    top:20px;
+    left: 1000px;
+}*/

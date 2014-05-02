@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>DPEA Board Practice</title>
+    <script src="../css/buttons.css"></script>
+    <script src="../js/draw.js"></script>
+  </head>
+<body>
+<p id="leftButtons" style="float: left">
+  <button type="button" onclick="updateStatusHigh(15)">HIGH</button>D15<button type="button" onclick="updateStatusLow(15)">LOW</button><br>
+  <button type="button" onclick="updateStatusHigh(14)">HIGH</button>D14<button type="button" onclick="updateStatusLow(14)">LOW</button><br>
+  <button type="button" onclick="updateStatusHigh(13)">HIGH</button>D13<button type="button" onclick="updateStatusLow(13)">LOW</button><br>
+  <button type="button" onclick="updateStatusHigh(12)">HIGH</button>D12<button type="button" onclick="updateStatusLow(12)">LOW</button><br>
+  <button type="button" onclick="updateStatusHigh(11)">HIGH</button>D11<button type="button" onclick="updateStatusLow(11)">LOW</button><br>
+  <button type="button" onclick="updateStatusHigh(10)">HIGH</button>D10<button type="button" onclick="updateStatusLow(10)">LOW</button><br>
+  <button type="button" onclick="updateStatusHigh(9)">HIGH</button>D9 <button type="button" onclick="updateStatusLow(9)">LOW</button>
+</p>
+<div style="position: relative;">
+  <canvas id="myCanvas" width="350" height="450"
+  style="background-color:white; border:4px solid black; margin:10px; position: absolute; left: 500; top: 0; z-index: 0;">
+  </canvas>
+  <canvas id="myCanvas2" width="350" height="450" style="position: absolute; left: 500; top: 0; z-index: 1;"></canvas>
+  <script>
+    can();
+    var array= new Array(16),j;
+    for(j=0;j<16;i++) {array[j]=0;}    
+  </script>
+
+<p id="rightButtons" style="float: right">
+  <button type="button" onclick="updateStatusHigh(8)">HIGH</button>D8<button type="button" onclick="updateStatusLow(8)">LOW</button><br>
+  <button type="button" onclick="updateStatusHigh(7)">HIGH</button>D7<button type="button" onclick="updateStatusLow(7)">LOW</button><br>
+  <button type="button" onclick="updateStatusHigh(6)">HIGH</button>D6<button type="button" onclick="updateStatusLow(6)">LOW</button><br>
+  <button type="button" onclick="updateStatusHigh(5)">HIGH</button>D5<button type="button" onclick="updateStatusLow(5)">LOW</button><br>
+  <button type="button" onclick="updateStatusHigh(4)">HIGH</button>D4<button type="button" onclick="updateStatusLow(4)">LOW</button><br>
+  <button type="button" onclick="updateStatusHigh(3)">HIGH</button>D3<button type="button" onclick="updateStatusLow(3)">LOW</button><br>
+  <button type="button" onclick="updateStatusHigh(2)">HIGH</button>D2<button type="button" onclick="updateStatusLow(2)">LOW</button>
+</p>
+
+</body>
+</html>
